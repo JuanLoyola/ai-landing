@@ -4,6 +4,7 @@
     <BannerInfo />
     <Cards />
     <Core />
+    <TripleCard />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Hero from '@/components/home/Hero.vue';
 import BannerInfo from '@/components/home/BannerInfo.vue';
 import Cards from '@/components/home/Cards.vue';
 import Core from '@/components/home/Core.vue';
+import TripleCard from '@/components/home/TripleCard.vue';
 
 export default {
   name: 'HomeView',
@@ -19,7 +21,8 @@ export default {
     Hero,
     BannerInfo,
     Cards,
-    Core
+    Core,
+    TripleCard
   }
 }
 </script>
