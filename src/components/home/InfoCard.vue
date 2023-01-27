@@ -1,0 +1,39 @@
+<template>
+    <div class="w-full bg-[#252F3E]">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 h-full md:h-screen flex  flex-col justify-around items-center md:items-center">
+
+            <div class="flex flex-col md:flex-row gap-y-5 md:gap-y-0  md:gap-x-3 ">
+                <Card
+                    :img="'https://fligoo.com/assets/images/sales-ico.png'"
+                    :square1="'+48%'"
+                    :text1="'response rate for premium cards over bank baseline.'"
+                    :square2="'+18%'"
+                    :text2="'credit card sales conversion rates over bank baseline.'"
+                    :square3="'-50%'"
+                    :text3="'costs reduction in contact center activities.'"
+                />
+                <Card
+                    :img="'https://fligoo.com/assets/images/churn-ico.png'"
+                    :square1="'+$3.8B'"
+                    :text1="'in AUM at high risk of leaving the organization identified.'"
+                    :square2="'+$15M'"
+                    :text2="'retained in tuition revenue.'"
+                    :square3="'94%'"
+                    :text3="'accuracy in predicting account closure.'"
+                />
+            </div>
+
+        </div>
+    </div>
+</template>
+
+<script>
+    import Card from '@/components/utils/Card.vue';
+
+    export default {
+        name: 'InfoCard',
+        components: {
+            Card
+        }
+    }
+</script>
