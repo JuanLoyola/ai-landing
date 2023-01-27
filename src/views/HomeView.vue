@@ -6,6 +6,8 @@
     <Core />
     <TripleCard />
     <InfoCard />
+    <BannerFooter />
+    <Footer />
   </div>
 </template>
 
@@ -16,6 +18,8 @@ import Cards from '@/components/home/Cards.vue';
 import Core from '@/components/home/Core.vue';
 import TripleCard from '@/components/home/TripleCard.vue';
 import InfoCard from '@/components/home/InfoCard.vue';
+import BannerFooter from '@/components/home/BannerFooter.vue';
+import Footer from '@/components/home/Footer.vue';
 
 export default {
   name: 'HomeView',
@@ -25,7 +29,9 @@ export default {
     Cards,
     Core,
     TripleCard,
-    InfoCard
+    InfoCard,
+    BannerFooter,
+    Footer
   }
 }
 </script>
