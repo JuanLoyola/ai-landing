@@ -1,7 +1,7 @@
 <template>
     <div class="w-full bg-[#252F3E]">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 h-screen md:h-[50vh] flex justify-center items-center">
-            <section class="card flex flex-col md:flex-row w-full h-full md:h-[430px]">
+            <section data-aos="fade-down" data-aos-duration="2000" class="card flex flex-col md:flex-row w-full h-full md:h-[430px]">
                 <div
                     class="image md:h-full flex-grow flex flex-col justify-between bg-cover bg-[url('https://images.unsplash.com/photo-1601597110547-78516f198ce4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80')]"
                 >

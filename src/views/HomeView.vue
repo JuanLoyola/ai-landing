@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#161616] w-full"> 
+  <div class="bg-[#161616] w-full">
     <Hero />
     <BannerInfo />
     <Cards />

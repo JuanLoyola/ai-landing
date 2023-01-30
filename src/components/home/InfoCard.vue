@@ -4,22 +4,24 @@
 
             <div class="flex flex-col md:flex-row gap-y-5 md:gap-y-0  md:gap-x-3 ">
                 <Card
+                    data-aos="fade-right" data-aos-duration="2000" 
                     :img="'https://fligoo.com/assets/images/sales-ico.png'"
                     :square1="'+48%'"
-                    :text1="'response rate for premium cards over bank baseline.'"
+                    :text1="'Response rate for premium cards over bank baseline.'"
                     :square2="'+18%'"
-                    :text2="'credit card sales conversion rates over bank baseline.'"
+                    :text2="'Credit card sales conversion rates over bank baseline.'"
                     :square3="'-50%'"
-                    :text3="'costs reduction in contact center activities.'"
+                    :text3="'Costs reduction in contact center activities.'"
                 />
                 <Card
+                    data-aos="fade-left" data-aos-duration="2000" 
                     :img="'https://fligoo.com/assets/images/churn-ico.png'"
                     :square1="'+$3.8B'"
-                    :text1="'in AUM at high risk of leaving the organization identified.'"
+                    :text1="'In AUM at high risk of leaving the organization identified.'"
                     :square2="'+$15M'"
-                    :text2="'retained in tuition revenue.'"
+                    :text2="'Retained in tuition revenue.'"
                     :square3="'94%'"
-                    :text3="'accuracy in predicting account closure.'"
+                    :text3="'Accuracy in predicting account closure.'"
                 />
             </div>
 
