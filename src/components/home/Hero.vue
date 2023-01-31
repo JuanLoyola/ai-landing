@@ -5,7 +5,7 @@
             <h2 data-aos="fade-right" data-aos-duration="2000" class="font-bold text-xl lg:text-7xl text-white">enhanced <span data-aos="fade-up" data-aos-duration="3000" class="text-[#194ABC]">through AI</span>.</h2>
             <h4 data-aos="fade-right" data-aos-duration="2600" class="hidden md:flex mt-28 md:mt-12 text-base lg:text-md text-white">We partner with some of the most well known companies in the world to provide AI solutions, technology alliances, value adding and consulting.</h4>
 
-            <div data-aos="fade-left" data-aos-duration="2600" class="-mt-0 hidden md:max-w-none slider">
+            <div data-aos="fade-left" data-aos-duration="2600" class="-mt-0 hidden lg:flex md:max-w-none slider">
                 <div class="slide-track">
                     <div class="slide" v-for="img in imgSlider" :key="img">
                         <img class="h-8" :src="img.img" width="250" alt="support brands" />
