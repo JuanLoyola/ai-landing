@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full max-w-2xl md:w-[823.5px] md:h-[765px] bg-black bg-opacity-50 py-12 px-5 rounded-md shadow flex flex-col justify-between items-start text-left">
+    <div class="w-full max-w-2xl md:w-[823.5px] md:h-[650px] bg-black bg-opacity-50 py-12 px-5 rounded-md shadow flex flex-col justify-between items-start text-left">
         <img :src="img" alt="logo">
         <h1 class="text-center font-bold text-xl lg:text-4xl text-indigo-300">Lorem, ipsum. ™</h1>
         <h2 class="mb-7 text-lg text-gray-400 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae exercitationem cumque nam.</h2>
