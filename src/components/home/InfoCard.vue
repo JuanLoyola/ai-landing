@@ -4,7 +4,7 @@
 
             <div class="flex flex-col md:flex-row gap-y-5 md:gap-y-0  md:gap-x-3 ">
                 <Card
-                    data-aos="fade-right" data-aos-duration="2000" 
+                    data-aos="fade-up" data-aos-duration="2000" 
                     :img="'https://fligoo.com/assets/images/sales-ico.png'"
                     :square1="'+48%'"
                     :text1="'Response rate for premium cards over bank baseline.'"
@@ -14,7 +14,7 @@
                     :text3="'Costs reduction in contact center activities.'"
                 />
                 <Card
-                    data-aos="fade-left" data-aos-duration="2000" 
+                    data-aos="fade-up" data-aos-duration="2000" 
                     :img="'https://fligoo.com/assets/images/churn-ico.png'"
                     :square1="'+$3.8B'"
                     :text1="'In AUM at high risk of leaving the organization identified.'"
